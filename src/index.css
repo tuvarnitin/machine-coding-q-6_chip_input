@@ -1,0 +1,57 @@
+html,body{
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+  padding: 40px;
+  color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px;
+  width: max(20%,200px);
+  border: .5px solid rgba(255, 255, 255, 0.793);
+  outline: none;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(50,50,50);
+}
+
+.chip {
+  font-size: max(1.1vw,16px);
+  padding: 4px 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(167, 167, 167, 0.552);
+  display: flex;
+  gap: 7px;
+  width: fit-content;
+}
+
+span {
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.chip-container{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  row-gap: 8px;
+  margin-top: 10px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  min-width: 300px;
+  border: 1px solid rgba(196, 196, 196, 0.18);
+  padding: 10px;
+  border-radius: 10px;
+}
